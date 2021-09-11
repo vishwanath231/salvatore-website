@@ -23,6 +23,10 @@ a {
 }
 
 
+/*===============================
+            COMMON STYLE 
+==================================*/
+
 section .title {
     position: relative;
     text-align: center;
@@ -64,6 +68,9 @@ section .title::after {
 
 
 
+/*===================================
+            HEADER 
+==================================*/
 
 .header__container{
     background: url('../img/bg.png');
@@ -134,6 +141,11 @@ section .title::after {
 
 
 
+
+
+/*=================================
+            ABOUT 
+=================================*/
 .company__container{
     max-width: 1140px;
     margin: 10rem auto 0 auto;
@@ -204,6 +216,9 @@ section .title::after {
 
 
 
+/*======================================
+                SERVICES 
+=======================================*/
 .service__container{
     max-width: 1140px;
     margin: 10rem auto 0 auto;
@@ -255,8 +270,6 @@ section .title::after {
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
-
-
 @media(max-width:920px){
     .service__flex{
         grid-template-columns: repeat(2,1fr);
@@ -270,6 +283,10 @@ section .title::after {
 
 
 
+
+/*=====================================
+            CONTACT 
+=====================================*/
 .contact__container{
     max-width: 1140px;
     margin: 10rem auto 0 auto;
@@ -337,7 +354,9 @@ section .title::after {
 
 
 
-
+/*========================================
+                FOOTER 
+==========================================*/
 .footer{
     max-width: 1140px;
     margin: 7rem auto 5rem auto;

@@ -1,3 +1,4 @@
+// DOM Elment's
 const hamburger = document.querySelector('.hamburger');
 const hamburgerSpan = document.querySelector('.hamburger span');
 const mobileHamburger = document.querySelector('.mobile__menu-list');
@@ -6,6 +7,9 @@ const nav = document.querySelector('.nav');
 const progressBarDiv = document.querySelector('.progress__bar');
 const indicator = document.querySelector('.indicator');
 
+
+
+// Hamburger Menu
 hamburger.addEventListener('click' ,() => {
     hamburger.classList.toggle('open');
     mobileHamburger.classList.toggle('active');
@@ -13,20 +17,26 @@ hamburger.addEventListener('click' ,() => {
     nav.classList.toggle('show')
 })
 
+
+// Hamburger Menu Item
 mHamburger.forEach((item) => {
     item.addEventListener('click' ,() => {
-    hamburger.classList.remove('open');
-    mobileHamburger.classList.remove('active')
-    indicator.classList.remove('active')
-    nav.classList.remove('show')
-})
+        hamburger.classList.remove('open');
+        mobileHamburger.classList.remove('active');
+        indicator.classList.remove('active');
+        nav.classList.remove('show');
+    })
 })
 
+
+// Window 
 window.onscroll = function(){
     scrollFunction();
     progressBar();
 }
 
+
+// Navbar scroll change background color
 function scrollFunction(){
     if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ){
         nav.classList.add('active');
@@ -38,6 +48,7 @@ function scrollFunction(){
 }
 
 
+// Scroll Progress Bar
 function progressBar(){
     var windowScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height  = document.documentElement.scrollHeight - document.documentElement.clientHeight;
