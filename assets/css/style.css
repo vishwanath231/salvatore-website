@@ -223,9 +223,9 @@ section .title::after {
 
 .service__box{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 10px 10px 2rem 10px;
+    padding: 1rem;
     border-radius: 6px;
-    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 .service__box img{
@@ -255,6 +255,7 @@ section .title::after {
     color: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: inline-block;
 }
 
 @media(min-width:1020px){
