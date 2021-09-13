@@ -98,19 +98,23 @@ section .title::after {
 .header__content{
     max-width: 1140px;
     margin: 0 auto;
-    color: #fff;    
-    text-transform: uppercase;
-    z-index: 999;
-    font-family: var(--Montserrat-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.header__content h2{
-    font-size: 16px;
+.header__box{
+    color: #fff;
+    text-transform: uppercase;
+}
+.header__box h2 {
+    font-size: 1.3rem;
     font-weight: 600;
     line-height: 24px;
     margin-bottom: 1rem;
 }
-.header__content p {
-    font-size: 70px;
+.header__box p {
+    font-size: 5rem;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -124,7 +128,8 @@ section .title::after {
 
 @media(min-width:1020px){
     .header__content{
-        padding: 12rem 15px;
+        flex: 0 0 75%;
+        max-width: 75%;
     }
 }
 
