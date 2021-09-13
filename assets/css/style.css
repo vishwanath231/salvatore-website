@@ -343,7 +343,7 @@ section .title::after {
     font-family: var(--Montserrat-font);
 }
 .features__content{
-    text-align: center;
+    text-align: left;
     margin: 0 0 2rem 0;
 }
 .features__content h2{
@@ -383,6 +383,7 @@ section .title::after {
     .features__content {
         max-width: 800px;
         margin: 0 auto 2rem auto;
+        text-align: center;
     }
 }
 
