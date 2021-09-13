@@ -262,9 +262,6 @@ section .title::after {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    p{
-        line-height: 2rem;
-    }
 }
 
 
@@ -370,6 +367,12 @@ section .title::after {
 .footer ul li a{
     color: #666666;
     font-size: 20px;
+}
+
+@media(min-width:1020px){
+    .footer ul li a {
+        font-size: 30px;
+    }
 }
 @media(max-width:600px){
     .footer{
