@@ -262,6 +262,9 @@ section .title::after {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    p{
+        line-height: 2rem;
+    }
 }
 
 
