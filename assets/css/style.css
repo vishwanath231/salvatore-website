@@ -227,11 +227,7 @@ section .title::after {
     content: 'what i provide';
 }
 
-.service__flex{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 2em;
-}
+
 .service__box{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 10px 10px 2rem 10px;
@@ -268,14 +264,11 @@ section .title::after {
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
-@media(max-width:920px){
-    .service__flex{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media(max-width:600px){
-    .service__flex{
-        grid-template-columns:1fr;
+@media(min-width:1020px){
+    .service__flex {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2em;
     }
 }
 
