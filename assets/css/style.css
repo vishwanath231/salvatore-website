@@ -157,7 +157,7 @@ section .title::after {
 }
 .company__box{
     font-family: var(--Montserrat-font);
-    margin: 1rem;
+    margin: 0 0 2rem 0;
     box-shadow: 0 .5rem 1rem rgba(22, 28, 45, .15);
     padding: 1rem;
 }
@@ -194,6 +194,9 @@ section .title::after {
     .company__grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .company__box {
+        margin: 1rem;
     }
 }
 
@@ -282,7 +285,7 @@ section .title::after {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 1rem;
     border-radius: 6px;
-    margin: 1rem 1rem 2rem 1rem;
+    margin: 0rem 0rem 2rem 0rem;
 }
 
 .service__box img{
@@ -320,6 +323,9 @@ section .title::after {
     .service__flex {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .service__box {
+        margin: 1rem;
     }
 }
 
