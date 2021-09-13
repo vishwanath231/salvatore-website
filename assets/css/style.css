@@ -146,37 +146,89 @@ section .title::after {
 
 
 
+/*=============================
+            COMPANY 
+=============================*/
+
+.company__container{
+    max-width: 1140px;
+    margin: 5rem auto 0 auto;
+    padding: 0 15px;
+}
+.company__box{
+    font-family: var(--Montserrat-font);
+    margin: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(22, 28, 45, .15);
+    padding: 1rem;
+}
+.company__img {
+    background: #f8e9db;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+}
+.company__img img {
+    width: 40px;
+}
+.company__box h2 {
+    margin: .6rem 0 0.2rem 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.company__box h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.company__box p{
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+
+@media(min-width:1020px) {
+    .company__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
 
 
 /*=================================
             ABOUT 
 =================================*/
-.company__container{
+.about__container {
     max-width: 1140px;
-    margin: 10rem auto 0 auto;
+    margin: 8rem auto 0 auto;
     padding: 0 15px;
 }
 
-.company__container .title::after{
+.about__container .title::after {
     content: 'who i am';
 }
 
-.company__img img{
+.about__img img {
     width: 100%;
     border-radius: 3px;
 }
 
-.company__content{
+.about__content {
     margin: 1rem 0;
 }
 
-.company__content h2{
+.about__content h2 {
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-.company__content h4{
+.about__content h4 {
     font-size: .9rem;
     font-weight: 500;
     color: #cb966a;
@@ -184,14 +236,14 @@ section .title::after {
     text-transform: uppercase;
 }
 
-.company__content p{
+.about__content p {
     font-size: .9rem;
     font-weight: 500;
     line-height: 1.6rem;
     margin-bottom: 2rem;
     font-family: var(--Montserrat-font);
 }
-.company__btn{
+.about__content a{
     background-color:#cb966a;
     border-radius: 3px;
     font-size: 15px;
@@ -202,7 +254,7 @@ section .title::after {
 }
 
 @media(min-width:1020px){
-    .company__grid {
+    .about__grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2em;
@@ -217,7 +269,7 @@ section .title::after {
 =======================================*/
 .service__container{
     max-width: 1140px;
-    margin: 10rem auto 0 auto;
+    margin: 7rem auto 0 auto;
     padding: 0 15px;
 }
 
@@ -230,7 +282,7 @@ section .title::after {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 1rem;
     border-radius: 6px;
-    margin-bottom: 2rem;
+    margin: 1rem 1rem 2rem 1rem;
 }
 
 .service__box img{
@@ -279,7 +331,7 @@ section .title::after {
 =====================================*/
 .contact__container{
     max-width: 1140px;
-    margin: 10rem auto 0 auto;
+    margin: 7rem auto 0 auto;
     padding: 0 15px;
 }
 .contact__container p{
