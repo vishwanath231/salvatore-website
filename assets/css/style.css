@@ -156,40 +156,33 @@ section .title::after {
     content: 'who i am';
 }
 
-
-
 .company__img img{
     width: 100%;
     border-radius: 3px;
 }
 
-.company__content h2{
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: .5rem;
-    text-transform: uppercase;
+.company__content{
+    margin: 1rem 0;
 }
-.company__content h2 span{
+
+.company__content h2{
+    font-size: 1.5rem;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .company__content h4{
-    font-size: 15px;
+    font-size: .9rem;
     font-weight: 500;
     color: #cb966a;
-    margin-bottom: 1rem;
+    margin: .5rem 0 1rem 0;
     text-transform: uppercase;
 }
-.line-2{
-    width: 60px;
-    height: 3px;
-    background: #F80000;
-    margin-bottom: 1rem;
-}
+
 .company__content p{
-    font-size: 16px;
+    font-size: .9rem;
     font-weight: 500;
-    line-height: 25px;
+    line-height: 1.4rem;
     margin-bottom: 2rem;
     font-family: var(--Montserrat-font);
 }
@@ -239,7 +232,7 @@ section .title::after {
 }
 
 .service__box .box__title{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
     text-transform: uppercase;
     margin: 1rem 0;
@@ -389,8 +382,8 @@ section .title::after {
 
 .licence{
     text-align: center;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: .8rem;
+    font-weight: 500;
     color: #666666;
     margin:2rem 0 1rem 0;
     padding: 0 15px;
