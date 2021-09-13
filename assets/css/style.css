@@ -97,6 +97,7 @@ section .title::after {
 .header__content{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,15 +108,15 @@ section .title::after {
     text-transform: uppercase;
 }
 .header__box h2 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    line-height: 24px;
+    font-size: .9rem;
+    font-weight: 500;
     margin-bottom: 1rem;
+    letter-spacing: 0.4px;
 }
 .header__box p {
     font-size: 5rem;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .line{
     width: 90px;
