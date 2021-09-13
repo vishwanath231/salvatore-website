@@ -182,7 +182,7 @@ section .title::after {
 .company__content p{
     font-size: .9rem;
     font-weight: 500;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
     margin-bottom: 2rem;
     font-family: var(--Montserrat-font);
 }
@@ -225,6 +225,7 @@ section .title::after {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 10px 10px 2rem 10px;
     border-radius: 6px;
+    margin: 1rem;
 }
 
 .service__box img{
@@ -241,7 +242,7 @@ section .title::after {
     font-size: .9rem;
     font-weight: 500;
     padding-bottom: 1.8rem;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
     font-family: var(--Montserrat-font);
 }
 
@@ -260,7 +261,6 @@ section .title::after {
     .service__flex {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2em;
     }
 }
 
