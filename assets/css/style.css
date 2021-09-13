@@ -156,11 +156,7 @@ section .title::after {
     content: 'who i am';
 }
 
-.company__grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 2em;
-}
+
 
 .company__img img{
     width: 100%;
@@ -207,9 +203,11 @@ section .title::after {
     font-family: var(--Montserrat-font);
 }
 
-@media(max-width:920px){
-    .company__grid{
-        grid-template-columns: 1fr;
+@media(min-width:1020px){
+    .company__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
     }
 }
 
