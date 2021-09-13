@@ -401,7 +401,7 @@ section .title::after {
         grid-template-columns: repeat(2,1fr);
     }
      .features__box {
-         margin: 1rem;
+         margin: .4rem;
      }
 }
 
