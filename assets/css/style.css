@@ -386,6 +386,24 @@ section .title::after {
     }
 }
 
+@media(max-width:1020px){
+    .features__grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+     .features__box {
+         margin: 1rem;
+     }
+}
+@media(max-width:768px){
+    .features__grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+     .features__box {
+         margin: 1rem;
+     }
+}
 
 
 
