@@ -1,6 +1,7 @@
 :root{
     --Montserrat-font: Montserrat, sans-serif;
     --Roboto-font: Roboto, sans-serif;
+    --Sen-font: Sen, sans-serif;
 }
 
 *{
@@ -11,7 +12,8 @@
 }
 
 body{
-    font-family: var(--Roboto-font);
+    
+    font-family:var(--Sen-font);
 }
 
 ul{
@@ -24,7 +26,7 @@ a {
 
 
 /*===============================
-            COMMON STYLE 
+COMMON STYLE 
 ==================================*/
 
 section .title {
@@ -109,15 +111,16 @@ section .title::after {
     text-transform: uppercase;
 }
 .header__box h2 {
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    letter-spacing: 0.4px;
+    letter-spacing: 2px;
+    font-family:var(--Roboto-font);
 }
 .header__box p {
     font-size: 5rem;
     font-weight: 700;
-    letter-spacing: 1px;
+    font-family: var(--Sen-font);
 }
 .line{
     width: 90px;
@@ -157,7 +160,6 @@ section .title::after {
     padding: 0 15px;
 }
 .company__box{
-    font-family: 'Sen',sans-serif;
     margin: 0 0 2rem 0;
     box-shadow: 0 .5rem 1rem rgba(22, 28, 45, .15);
     padding: 1rem;
@@ -225,7 +227,6 @@ section .title::after {
 
 .about__content {
     margin: 1rem 0;
-    font-family: 'Sen',sans-serif;
 }
 
 .about__content h2 {
@@ -304,14 +305,12 @@ section .title::after {
     font-weight: 500;
     padding-bottom: 1.8rem;
     line-height: 1.6rem;
-    font-family: 'Sen',sans-serif;
 }
 
 .service__btn{
     display: inline-block;
     font-size: .9rem;
     font-weight: 500;
-    font-family: var(--Montserrat-font);
     color: #fff;
     background: #cb966a;
     padding: 10px 16px;
@@ -340,7 +339,6 @@ section .title::after {
     max-width: 1140px;
     margin: 7rem auto 0 auto;
     padding: 0 15px;
-    font-family: 'Sen',sans-serif;
 }
 .features__content{
     text-align: left;
@@ -348,8 +346,8 @@ section .title::after {
 }
 .features__content h2{
     margin-bottom: 1.9rem;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
 }
 .features__content p{
     font-size: .9rem;
@@ -411,14 +409,14 @@ section .title::after {
 
 
 /*==============================
-            TEAM 
+            TESTIMONIAL
 ==============================*/
-.team__container{
+.testimonial__container {
     max-width: 1140px;
     margin: 7rem auto 0 auto;
     padding: 0 15px;
 }
-.team__container .title::after{
+.testimonial__container .title::after {
     content: 'who i am';
 }
 
@@ -431,7 +429,6 @@ section .title::after {
     margin:  0 auto;
     padding: 0 15px;
     text-align: center;
-    font-family: "Sen",sans-serif;
 }
 
 .caption{

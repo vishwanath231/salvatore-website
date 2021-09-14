@@ -1,16 +1,13 @@
 :root {
     --Montserrat-font: Montserrat, sans-serif;
     --Roboto-font: Roboto, sans-serif;
+    --Sen-font: Sen, sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: var(--Roboto-font);
 }
 
 ul {
@@ -76,6 +73,7 @@ a {
     color: #fff;
     letter-spacing: 0.4px;
     transition: all 0.6s ease;
+    font-family: var(--Roboto-font);
 }
 .menu__item:hover{
     color: #cb966a;
