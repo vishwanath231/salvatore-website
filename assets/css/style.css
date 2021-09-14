@@ -563,63 +563,131 @@ section .title::after {
     margin: 7rem auto 0 auto;
     padding: 0 15px;
 }
-.contact__container p{
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 3rem;
+
+.contact__container .title::after{
+    content: 'Get in touch';
+}
+.contact__grid{
+    display: grid;
+    grid-gap: 2em;
 }
 
-.contact__box{
+.contact__content{
+    margin-bottom: 1.5rem;
+}
+.contact__content h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: .4rem;
+}
+.contact__content p {
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.contact__details{
     display: flex;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 6px;
-    /* border-right: 3px solid #e4002b; */
-    background: #fff;
-    width: 500px;
-    margin: 0 auto;
+    margin: 1.5rem 0;
 }
-.contact__box img {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+.contact__details i {
+    background-color: #cb966a;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+}
+.contact__details div:nth-child(2){
+    margin:0px 1rem;
+}
+.contact__details h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.contact__details p{
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-.contact__box .email{
-    margin-left: 50px;
-}
-.contact__box .email span{
-    font-size: 15px;
+.contact__box-2 h2{
+    font-size: 1.1rem;
     font-weight: 500;
-}
-.contact__box .email div span{
-    font-size: 15px;
-    font-weight: 500;
-    color: #000;
-}
-.contact__box .email a{
-    text-decoration: underline;
-    font-size: 17px;
-    font-weight: 500;
-    color: #050f2c;
-}
-.contact__box .email div{
-    font-size: 17px;
-    font-weight: 500;
-    color: #050f2c;
-    margin: 1rem 0;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
-@media(max-width:600px){
-    .contact__box{
-        width: 100%;
-        flex-direction: column;
-    }
-    .contact__box .email{
-        margin-left: 0;
-    }
-    .contact__box img{
-        margin: 1.5rem 0;
+.contact__form{
+    width: 100%;
+}
+
+.form__div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form__div label{
+    margin-bottom: .4rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.form__div input {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #cb966a;
+    border-radius: 3px;
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: var(--Sen-font);
+}
+.form__div textarea{
+    resize: none;
+    padding: 10px;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    outline: none;
+    border: 1px solid #cb966a;
+    border-radius: 3px;
+    font-family: var(--Sen-font);
+}
+.form__div textarea::-webkit-scrollbar{
+    width: 5px;
+    cursor: default;
+}
+.form__div textarea::-webkit-scrollbar-thumb{
+    background: #a7a7a7;
+    border-radius: 10px;
+}
+.form__div textarea::-webkit-scrollbar-track{
+    background:#dbdbdb ;
+    border-radius: 10px;
+}
+
+.contact__form button{
+    width: 100%;
+    padding: 13px 15px;
+    outline: none;
+    border: none;
+    background-color: #cb966a;
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: var(--Sen-font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.contact__form button i {
+    font-size: 1rem;
+}
+
+@media(min-width:1020px){
+    .contact__grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
@@ -630,7 +698,7 @@ section .title::after {
 ==========================================*/
 .footer{
     max-width: 1140px;
-    margin: 7rem auto 5rem auto;
+    margin: 5rem auto 5rem auto;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
@@ -654,13 +722,17 @@ section .title::after {
 }
 .footer ul li a{
     color: #666666;
-    font-size: 25px;
+    font-size: 1.5rem;
+    transition: all 0.6s ease;
+}
+.footer ul li a:hover{
+    color: #cb966a;
 }
 
 @media(max-width:600px){
     .footer{
         flex-direction: column;
-        margin: 4rem auto;
+        margin: 2rem auto;
     }
     .footer__logo{
         margin: 2rem 0;

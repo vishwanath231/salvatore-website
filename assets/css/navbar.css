@@ -87,7 +87,7 @@ a {
 .hamburger {
     position: relative;
     width: 30px;
-    height: 23px;
+    height: 24px;
     cursor: pointer;
     transform: rotate(0deg);
     transition: .5s ease-in-out;
@@ -97,7 +97,7 @@ a {
 .hamburger span {
     position: absolute;
     width: 100%;
-    height: 3px;
+    height: 2px;
     left: 0;
     background: #cb966a;
     border-radius: 6px;
@@ -164,6 +164,7 @@ a {
 ===============================*/
 
 @media(max-width:768px) {
+    
     .nav {
         z-index: 99999;
     }
