@@ -30,7 +30,7 @@ a {
 section .title {
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
@@ -43,7 +43,7 @@ section .title::before {
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: 150px;
     height: 3px;
     background: #e4002b;
     transform: translateX(-50%);
@@ -53,8 +53,9 @@ section .title::after {
     position: absolute;
     bottom: -8px;
     left: 50%;
-    font-size: 15px;
-    color: #050f2c;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #01040e;
     padding: 0.5px 6px;
     background: #fff;
     transform: translateX(-50%);
@@ -405,6 +406,157 @@ section .title::after {
          margin: .4rem;
      }
 }
+
+
+
+
+
+/*==============================
+            TEAM 
+==============================*/
+.team__container{
+    max-width: 1140px;
+    margin: 7rem auto 0 auto;
+    padding: 0 15px;
+}
+.team__container .title::after{
+    content: 'who i am';
+}
+
+.slider__container{
+    position: relative;
+}
+
+.slides {
+    max-width: 700px;
+    margin:  0 auto;
+    padding: 0 15px;
+    text-align: center;
+    font-family: "Sen",sans-serif;
+}
+
+.caption{
+    margin-bottom: 1.5rem;
+}
+.caption img {
+    width: 30px;
+    margin-right: .5rem;
+}
+.caption p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.profile img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.slides h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: .7rem;
+}
+.slides h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+
+
+
+.slider__container .prev,
+.slider__container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    transition: 0.6s ease;
+    user-select: none;
+    border:none;
+    outline: none;
+    display: none;
+    background: transparent;
+}
+.slider__container .prev img,
+.slider__container .next img{
+    width: 30px;
+}
+
+.slider__container .next {
+    right: 0;
+    border-radius: 50%;
+}
+.slider__container .prev img {
+    transform: rotate(180deg);
+}
+
+
+
+.dot {
+    display: inline-block;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2rem 2px 0 2px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active,
+.dot:hover {
+    background-color:#cb966a;
+}
+
+
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media(min-width:900px) {
+
+    .slider__container .prev,
+    .slider__container .next {
+        display: block;
+    }
+
+    .dot{
+        display: none;
+    }
+}
+
+
+
 
 
 
