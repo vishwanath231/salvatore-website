@@ -427,7 +427,6 @@ section .title::after {
 .slides {
     max-width: 700px;
     margin:  0 auto;
-    padding: 0 15px;
     text-align: center;
 }
 
@@ -550,7 +549,6 @@ section .title::after {
         display: none;
     }
 }
-
 
 
 
