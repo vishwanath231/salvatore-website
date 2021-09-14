@@ -1,6 +1,6 @@
 <h1 align="center">Business Website</h1>
 
-<a href="https://salvatore-website.vercel.app/" target="_blank">DEMO</a>
+<a href="https://online-business-website.vercel.app/" target="_blank">DEMO</a>
 
 **Languages**
 ```
@@ -18,7 +18,7 @@
 
 
 
-![PHOTO](https://github.com/vishwanath231/salvatore-website/blob/Master/assets/img/ui.jpeg?raw=true)
+![PHOTO](https://github.com/vishwanath231/Business-website/blob/Master/assets/img/ui.jpeg?raw=true)
 
 
 <hr>
