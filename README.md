@@ -16,7 +16,10 @@
 4.Responsive Design
 ```
 
-https://github.com/vishwanath231/salvatore-website/blob/Master/assets/img/ui.jpeg
+
+
+![PHOTO](https://github.com/vishwanath231/salvatore-website/blob/Master/assets/img/ui.jpeg?raw=true)
+
 
 <hr>
 <p align="center">Thanks for coming, Keep coming ❤️.</p
