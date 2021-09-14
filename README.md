@@ -1,6 +1,6 @@
 <h1 align="center">Business Website</h1>
 
-DEMO 👉🏻 https://salvatore-website.vercel.app/
+<a href="https://salvatore-website.vercel.app/" target="_blank">DEMO</a>
 
 **Languages**
 ```
@@ -16,6 +16,7 @@ DEMO 👉🏻 https://salvatore-website.vercel.app/
 4.Responsive Design
 ```
 
+https://github.com/vishwanath231/salvatore-website/blob/Master/assets/img/ui.jpeg
 
 <hr>
 <p align="center">Thanks for coming, Keep coming ❤️.</p
