@@ -157,7 +157,7 @@ section .title::after {
     padding: 0 15px;
 }
 .company__box{
-    font-family: var(--Montserrat-font);
+    font-family: 'Sen',sans-serif;
     margin: 0 0 2rem 0;
     box-shadow: 0 .5rem 1rem rgba(22, 28, 45, .15);
     padding: 1rem;
@@ -225,6 +225,7 @@ section .title::after {
 
 .about__content {
     margin: 1rem 0;
+    font-family: 'Sen',sans-serif;
 }
 
 .about__content h2 {
@@ -246,7 +247,6 @@ section .title::after {
     font-weight: 500;
     line-height: 1.6rem;
     margin-bottom: 2rem;
-    font-family: var(--Montserrat-font);
 }
 .about__content a{
     background-color:#cb966a;
@@ -255,7 +255,6 @@ section .title::after {
     font-weight: 400;
     padding: 10px 15px;
     color: #fff;
-    font-family: var(--Montserrat-font);
 }
 
 @media(min-width:1020px){
@@ -341,7 +340,7 @@ section .title::after {
     max-width: 1140px;
     margin: 7rem auto 0 auto;
     padding: 0 15px;
-    font-family: var(--Montserrat-font);
+    font-family: 'Sen',sans-serif;
 }
 .features__content{
     text-align: left;
@@ -369,7 +368,7 @@ section .title::after {
 }
 .features__box p{
     padding: 1rem 0;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 600;
 }
 
