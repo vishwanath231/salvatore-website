@@ -58,8 +58,7 @@ function progressBar(){
 
 
 
-//TESTIMONIAL SLIDER
-
+//Testimonial Slider
 var slideIndex = 1;
 
 showSlide(slideIndex)

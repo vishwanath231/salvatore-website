@@ -71,6 +71,18 @@ section .title::after {
 
 
 
+.company__container,
+.about__container,
+.service__container,
+.testimonial__container,
+.features__container,
+.contact__container,
+.footer {
+    max-width: 1140px;
+    margin: 7rem auto 0 auto;
+    padding: 0 15px;
+}
+
 /*===================================
             HEADER 
 ==================================*/
@@ -154,11 +166,7 @@ section .title::after {
             COMPANY 
 =============================*/
 
-.company__container{
-    max-width: 1140px;
-    margin: 5rem auto 0 auto;
-    padding: 0 15px;
-}
+
 .company__box{
     margin: 0 0 2rem 0;
     box-shadow: 0 .5rem 1rem rgba(22, 28, 45, .15);
@@ -210,11 +218,7 @@ section .title::after {
 /*=================================
             ABOUT 
 =================================*/
-.about__container {
-    max-width: 1140px;
-    margin: 8rem auto 0 auto;
-    padding: 0 15px;
-}
+
 
 .about__container .title::after {
     content: 'who i am';
@@ -272,11 +276,7 @@ section .title::after {
 /*======================================
                 SERVICES 
 =======================================*/
-.service__container{
-    max-width: 1140px;
-    margin: 7rem auto 0 auto;
-    padding: 0 15px;
-}
+
 
 .service__container .title::after{
     content: 'what i provide';
@@ -335,11 +335,7 @@ section .title::after {
 /*==================================
             FEATURES 
 ===================================*/
-.features__container{
-    max-width: 1140px;
-    margin: 7rem auto 0 auto;
-    padding: 0 15px;
-}
+
 .features__content{
     text-align: left;
     margin: 0 0 2rem 0;
@@ -411,11 +407,7 @@ section .title::after {
 /*==============================
             TESTIMONIAL
 ==============================*/
-.testimonial__container {
-    max-width: 1140px;
-    margin: 7rem auto 0 auto;
-    padding: 0 15px;
-}
+
 .testimonial__container .title::after {
     content: 'who i am';
 }
@@ -558,11 +550,7 @@ section .title::after {
 /*=====================================
             CONTACT 
 =====================================*/
-.contact__container{
-    max-width: 1140px;
-    margin: 7rem auto 0 auto;
-    padding: 0 15px;
-}
+
 
 .contact__container .title::after{
     content: 'Get in touch';
@@ -697,9 +685,6 @@ section .title::after {
                 FOOTER 
 ==========================================*/
 .footer{
-    max-width: 1140px;
-    margin: 5rem auto 5rem auto;
-    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -746,6 +731,6 @@ section .title::after {
     font-size: .8rem;
     font-weight: 500;
     color: #666666;
-    margin:2rem 0 1rem 0;
+    margin:4rem 0 1rem 0;
     padding: 0 15px;
 }
