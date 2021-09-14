@@ -352,9 +352,9 @@ section .title::after {
     font-weight: 700;
 }
 .features__content p{
-    font-size: 1.1rem;
+    font-size: .9rem;
     font-weight: 500;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .features__box{
