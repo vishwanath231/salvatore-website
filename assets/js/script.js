@@ -33,6 +33,7 @@ mHamburger.forEach((item) => {
 window.onscroll = function(){
     scrollFunction();
     progressBar();
+    scrollTopFun();
 }
 
 
@@ -99,3 +100,21 @@ function showSlide(n){
 }
 
 
+
+//Back to Top
+const scrollContainer = document.querySelector('.scroll__container');
+const scrollBtn = document.querySelector('.scroll__btn');
+
+
+function scrollTopFun(){
+    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+        scrollContainer.classList.add('active')
+    }else{
+        scrollContainer.classList.remove('active')
+    }
+}
+
+scrollBtn.addEventListener('click', () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
